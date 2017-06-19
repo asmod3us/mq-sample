@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "appdynamics": "^4.2.12"
+  }
+}

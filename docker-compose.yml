@@ -1,0 +1,16 @@
+version: '2'
+services:
+  mq:
+    image: rabbitmq
+  producer:
+      build: ./producer
+      depends_on:
+        - mq
+      environment:
+          - CLOUDAMQP_URL=amqp://mq
+  consumer:
+      build: ./consumer
+      depends_on:
+        - mq
+      environment:
+          - CLOUDAMQP_URL=amqp://mq

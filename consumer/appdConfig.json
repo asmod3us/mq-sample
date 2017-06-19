@@ -1,0 +1,11 @@
+{
+ "controllerHostName": "XXXXXXXXXXXXX",
+ "controllerPort": 9080,
+ "controllerSslEnabled": false,
+ "accountName": "customer1",
+ "accountAccessKey": "XXXXXXXXXX",
+ "applicationName": "MQ-Sample",
+ "tierName": "producers",
+ "nodeName": "producer",
+ "debug": true
+}
